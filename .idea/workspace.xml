@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90aac92b-d758-41e6-b618-2465b74e185b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/enjoybycode/eurokaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/enjoybycode/fraud/FraudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/enjoybycode/fraud/FraudApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/enjoybycode/fraud/FraudCheckService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/enjoybycode/fraud/FraudCheckService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/enjoybycode/fraud/FraudApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/com/enjoybycode/fraud/FraudApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/enjoybycode/fraud/FraudCheckHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/com/enjoybycode/fraud/FraudCheckHistory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -181,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681389525941</updated>
       <workItem from="1681389527249" duration="35000" />
-      <workItem from="1681389571154" duration="18327000" />
+      <workItem from="1681389571154" duration="21068000" />
     </task>
     <servers />
   </component>
