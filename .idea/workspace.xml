@@ -5,47 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90aac92b-d758-41e6-b618-2465b74e185b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/enjoybycode/amqp/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/com/enjoybycode/amqp/RabbitMQMessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/enjoybycode/clients/fraud/FraudCheckResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/enjoybycode/clients/fraud/FraudClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/enjoybycode/clients/notification/NotificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/enjoybycode/clients/notification/NotificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/enjoybycode/clients/notification/NotificationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/enjoybycode/apigw/ApiGWApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postres/configmap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postres/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postres/statefulset.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/configmap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/statefulset.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/volume.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/com/enjoybycode/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/com/enjoybycode/customer/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/com/enjoybycode/fraud/FraudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/com/enjoybycode/fraud/FraudController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/classes/com/enjoybycode/fraud/FraudController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/com/enjoybycode/fraud/FraudController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/enjoybycode/notification/NotificationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +53,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/clients/src/main/resources/application.properties" root0="SKIP_INSPECTION" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -101,21 +77,18 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="corretto-17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/clients/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/k8s/minikube/postres" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -127,15 +100,41 @@
       <recent name="com.enjoybycode.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s/minikube/postres" />
+      <recent name="$PROJECT_DIR$/apigw/src/main/resources" />
       <recent name="$PROJECT_DIR$/clients/src/main/resources" />
       <recent name="$PROJECT_DIR$/notification/src/main/resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s/minikube/bootstrap" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.enjoybycode.apigw" />
       <recent name="com.enjoybycode.clients.notification" />
       <recent name="com.enjoybycode.clients.fraud" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.NotificationApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustomerApplication">
+    <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="apigw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enjoybycode.apigw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.enjoybycode.apigw.ApiGWApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="customer" />
       <extension name="coverage">
@@ -209,20 +208,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.FraudApplication (2)" />
-      <item itemvalue="Spring Boot.CustomerApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.FraudApplication" />
-      <item itemvalue="Spring Boot.NotificationApplication" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NotificationApplication" />
-        <item itemvalue="Spring Boot.FraudApplication" />
+        <item itemvalue="Spring Boot.ApiGWApplication" />
         <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.FraudApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +230,11 @@
       <workItem from="1681860875654" duration="6363000" />
       <workItem from="1682110470770" duration="5401000" />
       <workItem from="1682270449149" duration="13242000" />
+      <workItem from="1682436091585" duration="69000" />
+      <workItem from="1683038690208" duration="1874000" />
+      <workItem from="1683151210116" duration="339000" />
+      <workItem from="1683151591395" duration="815000" />
+      <workItem from="1683189908998" duration="3705000" />
     </task>
     <servers />
   </component>

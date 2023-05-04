@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+data:
+  POSTGRES_DB: enjoybycode
+  POSTGRES_USER: hamed
+  POSTGRES_PASSWORD: password
